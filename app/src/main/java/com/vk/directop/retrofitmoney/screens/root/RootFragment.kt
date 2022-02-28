@@ -7,10 +7,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
+import androidx.navigation.Navigation
 import com.google.android.material.tabs.TabLayoutMediator
 import com.vk.directop.retrofitmoney.R
 import com.vk.directop.retrofitmoney.ViewPagerAdapter
 import kotlinx.android.synthetic.main.fragment_root.view.*
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 
 class RootFragment : Fragment() {
